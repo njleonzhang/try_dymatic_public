@@ -1,0 +1,22 @@
+{
+  "name": "webpack-req",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "worker-loader": "^3.0.8"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-require-from": "^1.8.6"
+  }
+}
